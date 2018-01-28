@@ -15,3 +15,5 @@ def printNumber(num):
 num = int(raw_input("Enter N: "))
 exp = int(raw_input("Enter exp: "))
 print power(num,exp)
+
+printNumber(10)
