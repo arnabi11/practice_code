@@ -8,4 +8,11 @@ def rev(x, prod=0):
         return rev(x / 10, prod)
 
 
+def isPalindrome(num):
+    if(num==rev(num)):print "Palindrome %s"%(num)
+    else:print "Not Palindrome %s"%(num)
+
 print rev(1945)
+
+isPalindrome(131)
+isPalindrome(1945)
