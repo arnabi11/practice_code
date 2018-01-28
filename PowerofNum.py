@@ -7,6 +7,11 @@ def power(num,pow):
     else:
         return(num*power(num,pow-1))
 
+def printNumber(num):
+    if(num==0):return
+    printNumber(num-1)
+    print num
+
 num = int(raw_input("Enter N: "))
 exp = int(raw_input("Enter exp: "))
 print power(num,exp)
