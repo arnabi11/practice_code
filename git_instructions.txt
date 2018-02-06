@@ -1,0 +1,7 @@
+git remote add origin https://github.com/arnabi11/practice_code.git
+
+vim .gitignore
+git add . //adding all files 
+git commit -m "My first commit"
+git pull origin master 
+git push origin master
