@@ -85,7 +85,7 @@ public class fileWalker{
             BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
             String fileType= bfr.readLine();
             String directory = bfr.readLine();
-            obFileWalker.serachFileType(fileType,directory);
+            obFileWalker.deleteFiles(fileType,directory);
         }
         catch(NullPointerException e){
             System.err.println(e.getStackTrace());
